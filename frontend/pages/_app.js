@@ -9,7 +9,6 @@ function MyApp({ Component, pageProps }) {
     </WagmiConfig>
   );
 }
-}
 
 export default MyApp
 
