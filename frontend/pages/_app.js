@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-
 function MyApp({ Component, pageProps }) {
   return (
     <WagmiConfig client={wagmiClient}>
@@ -9,7 +8,6 @@ function MyApp({ Component, pageProps }) {
     </WagmiConfig>
   );
 }
-
 export default MyApp
 
 import "@rainbow-me/rainbowkit/styles.css";
