@@ -46,7 +46,9 @@ export default function Listing(props) {
             setName(metadataJSON.name);
             setImageURI(image);
             setLoading(false);
-        } catch (error) { }
+        } catch (error) {
+            console.error(error);
+        }
     }
 
     // Fetch the NFT details when component is loaded
